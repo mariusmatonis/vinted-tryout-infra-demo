@@ -18,7 +18,7 @@ spec:
       - name: vinted-tryout-app
         # This image line will be updated by the GitHub Actions workflow.
         # Ensure 'YOUR_DOCKERHUB_USERNAME' matches the ${{ secrets.DOCKER_USERNAME }} in your workflow.
-        image: mariusmatonis/vinted-tryout-app:ddb107d7a8b96e5666c1c53052f27435c941cc6f
+        image: mariusmatonis/vinted-tryout-app:d1b09f243e0bed299d07ffd627457c2d9918ee4d
         ports:
         - containerPort: 5000 # Matches the EXPOSE port in your Dockerfile
 ---
